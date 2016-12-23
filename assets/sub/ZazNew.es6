@@ -2,12 +2,12 @@
 import Pop from "sub2/Pop";
 import PopNew from "sub2/PopNew";
 
-class Zaz {
+class ZazNew {
   zaz() {
     var p = new Pop();
     var p2 = new PopNew();
-    return p.pop();
+    return "constant";
   }
 }
 
-export default Zaz;
+export default ZazNew;
